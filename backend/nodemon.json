@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USERNAME": "rahul1234",
+    "DB_PASSWORD": "lfn7FV0jHIg7CMWC",
+    "DB_NAME": "notes",
+    "JWT_KEY": "secret",
+    "PORT": 80
+  }
+}
