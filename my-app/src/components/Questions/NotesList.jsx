@@ -7,7 +7,7 @@ export default function NotesList() {
     const data = useLoaderData();
     const notes = data.notes;
 
-    
+
 
 
     const navigation = useNavigation();
@@ -22,7 +22,7 @@ export default function NotesList() {
                 <div className=" min-h-screen p-8">
 
                     <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-2xl overflow-hidden">
-                        { notes && notes.length >= 1 ? <header className=" py-6 px-8">
+                        {notes && notes.length >= 1 ? <header className=" py-6 px-8">
                             <h1 className="text-3xl font-serif text-gray-800">
                                 All Notes
                             </h1>
@@ -70,7 +70,7 @@ export async function loader() {
             throw new Error(resData.message);
         }
 
-    
+
         return resData;
     } catch (err) {
         throw json(

@@ -100,7 +100,7 @@ export default function NotesList() {
                 {note.title}
             </h1>
 
-            <p className="text-gray-600 leading-relaxed mb-6">
+            <p className="text-gray-600  leading-relaxed mb-6 whitespace-pre-wrap">
                 {note.description}
             </p>
 
