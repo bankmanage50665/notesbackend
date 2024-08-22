@@ -120,7 +120,7 @@ function AddNotes() {
                             name='description'
                             id='description'
                             rows="4"
-                            className="w-full px-3 py-2 border border-gold-300 rounded-md shadow-sm placeholder-gold-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
+                            className="w-full whitespace-pre-wrap px-3 py-2 border border-gold-300 rounded-md shadow-sm placeholder-gold-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
                         ></textarea>
                     </div>
 
